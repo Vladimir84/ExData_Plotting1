@@ -15,7 +15,7 @@ png("plot4.png",width = 480, height = 480, bg="transparent")
 # plot 4
 par(mfrow=c(2,2))
 
-par(mar=c(4,4,4,2)); 
+par(mar=c(5,4,4,2)); 
 
 plot(subset$Dates,subset$Global_active_power, type="l",xlab="", ylab="Global Active Power (kilowatts)")
 
